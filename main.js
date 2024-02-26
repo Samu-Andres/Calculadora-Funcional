@@ -16,7 +16,8 @@ function calculate() {
                 displayvalue = result.toString();
                 document.getElementById('display').value = displayvalue;
         } catch (error) {
-                displayvalue = "error";
+                displayvalue = 'Error';
                 document.getElementById('display').value = displayvalue;
+                
         }
 }
